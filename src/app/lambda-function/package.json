@@ -4,8 +4,7 @@
     "description": "Lambda function to upload image to S3 and return a signed URL",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "deploy": "serverless deploy"
+      "start": "node index.js"
     },
     "dependencies": {
       "@aws-sdk/client-s3": "^3.63.0",
