@@ -1,0 +1,18 @@
+{
+    "name": "image-upload-lambda",
+    "version": "1.0.0",
+    "description": "Lambda function to upload image to S3 and return a signed URL",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "deploy": "serverless deploy"
+    },
+    "dependencies": {
+      "@aws-sdk/client-s3": "^3.63.0",
+      "@aws-sdk/s3-request-presigner": "^3.63.0"
+    },
+    "devDependencies": {},
+    "author": "",
+    "license": "ISC"
+  }
+  
